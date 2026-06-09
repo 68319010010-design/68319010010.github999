@@ -1,0 +1,54 @@
+/* /* Element Selector */
+body {
+    background-color: #e6f2ff;
+    font-family: Tahoma, sans-serif;
+}
+
+/* Class Selector */
+.card {
+    width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #0d6efd;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Class Selector */
+.profile {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #0d6efd;
+    border-radius: 50%;
+}
+
+/* ID Selector */
+#name {
+    color: #0d6efd;
+}
+
+/* Element Selector */
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    text-align: left;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.profile:hover {
+    transform: rotate(5deg);
+    transition: 0.3s;
+}
